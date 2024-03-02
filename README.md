@@ -53,16 +53,29 @@ Understand and analyze the factors that affect students' adaptation to the effic
 ## **📊 Dataset Description 📊**
 🔴 Based on the data used, the dataset consists of ```14 columns```, ```1205 rows```, Data type ```object```, there is ```no null/Nan``` on the data, I found ```949 duplicate``` data and the target value of this data is Adaptivity Level. For the duplicate data found, I took no action because the dataset is categorical, so it's highly likely to have duplicate data. <br>
 
-🔴 **Data Manipulation** Because all dataset types are objects, I started by converting to categorical type. Then change some to boolean and ordinal numeric datatype. However, for EDA, I kept the original categorical dataset.
+🔴 Because all dataset types are objects, I started by converting to categorical type. Then change some to boolean and ordinal numeric datatype. However, for EDA, I kept and used the original categorical dataset.
 - Boolean numeric:
   - ```IT Student```
   - ```Self Lms```
 - Ordinal numeric:
-  - ```Load Sheding```: Low = 1, High = 2
-  - ```Financial Condition```: Poor = 1, Mid = 2, Rich = 3
-  - ```Network Type```: 2G = 1, 3G = 2, 4G = 3
-  - ```Adaptivity```: Low = 1, Moderate = 2, High = 3
-  - ```Age```: 
-  - ```Class Duration```:
+  - ```Load Sheding```: Low = 1; High = 2
+  - ```Financial Condition```: Poor = 1; Mid = 2; Rich = 3
+  - ```Network Type```: 2G = 1; 3G = 2; 4G = 3
+  - ```Adaptivity```: Low = 1; Moderate = 2; High = 3
+  - ```Age```: 26-30 = 6; 21-25 = 5; 16-20 = 4; 11-15 = 3; 6-10 = 2; 1-5 = 1
+  - ```Class Duration```: 3-6 = 2; 1-3 = 1; 0 = 0
 
+## **📊 Understand the Data 📊**
+**Adaptivity Level**
+- Only 8.3% of students can adapt well to online learning methods.
+- Almost 40% face difficulties in adapting to online learning methods.
+- The most common adaptation level is at the Moderate level
+  
+**Gender**
+- More than half of the data population are males.
+- When observed by 'Gender', males show better adaptation ability compared to females.
+- The high adaptivity level for males is 10.7%, while for females it is only 5.4%.
 
+**Age, Education and IT Student**
+
+  
