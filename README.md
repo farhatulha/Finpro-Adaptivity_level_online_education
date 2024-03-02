@@ -101,8 +101,8 @@ Understand and analyze the factors that affect students' adaptation to the effic
 3. Does a better network type imply a higher level of adaptivity?
 4. What is the relationship between IT student and adaptability level?
   
-## ✅HIPOTESIS❌
-**Chi-Square Test**
+## ✅❌ HIPOTESIS
+**Chi-Square Test**<br>
 Based on the observed data, I'd like to find out the association between Adaptivity Level and the following features:
 1. Gender
 2. IT Student
@@ -113,3 +113,17 @@ Based on the observed data, I'd like to find out the association between Adaptiv
 
 I used the chi-square test with a p-value of 0.05.
 
+**Result** <br>
+I rejected the null hypothesis (H0) since the p-values for all three variables are less than 0.05. The chi-square test findings show that the three factors are significantly related to the ```Adaptivity Level```.
+- p-value for ```Network Type``` : 4.367322677925763e-06
+- p-value for ```Gender``` : 0.0011997056689743298
+- p-value for ```IT Student``` : 5.553333138404098e-05
+
+Follow up questions:<br>
+1. How about the other variables? Do they all have associations?
+2. Which variable affects the Adaptivity Level the most significantly?
+
+**End Result for chi-square test***
+Based on the comprehensive analysis, it has been determined that every variable is connected to the Adaptivity Level. Among the variables, the Financial Condition p-value is the most significant, since it approaches 0 in comparison to the other ones. For Financial Condition, the p-value is 4.391228197442381e-50.
+
+**Kendall's Tau**
