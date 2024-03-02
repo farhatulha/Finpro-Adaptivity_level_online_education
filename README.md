@@ -77,5 +77,22 @@ Understand and analyze the factors that affect students' adaptation to the effic
 - The high adaptivity level for males is 10.7%, while for females it is only 5.4%.
 
 **Age, Education and IT Student**
+- Students under the age of 15 account for a total of 40.2%.
+- Students aged between 16-20 years old make up 23.1%
+- At first, I thought there were no students from 'School' (Elementary, Junior, and Senior High) learning IT directly, but it turns out there are, although not as many as in universities.
+- For now, we can ignore this education level because almost the majority of the data population are school children (43%) who are not learning IT.
+
+**Location**
+- The dominant population is in Bangladesh with a high adaptivity rate of 9.8%.
+- The population outside Bangladesh with high adaptivity is 3%.
+
+**Financial Condition**
+- The dominant population for this financial condition is the middle class, with the most common adaptivity level being moderate, followed by low adaptivity, and the smallest being high adaptivity.
+
+**Network Level**
+- The 'High' Adaptivity level for Network 4G is much higher compared to 3G and 2G.
+- The dominant Adaptivity level for Network 4G is 'Moderate'.
+- Location factor also appears to be associated with the network.
+- It is evident from the graph that students living in Bangalore have better 4G and 3G internet networks compared to those outside Bangalore.
 
   
