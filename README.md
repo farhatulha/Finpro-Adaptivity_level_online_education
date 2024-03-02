@@ -95,4 +95,21 @@ Understand and analyze the factors that affect students' adaptation to the effic
 - Location factor also appears to be associated with the network.
 - It is evident from the graph that students living in Bangalore have better 4G and 3G internet networks compared to those outside Bangalore.
 
+**❓DEEP DIVE QUESTION❔**
+1. How does gender affect adaptability level?
+2. Is Network Type the most important element influencing Adaptivity Level, among others variabel?
+3. Does a better network type imply a higher level of adaptivity?
+4. What is the relationship between IT student and adaptability level?
   
+## ✅HIPOTESIS❌
+**Chi-Square Test**
+Based on the observed data, I'd like to find out the association between Adaptivity Level and the following features:
+1. Gender
+2. IT Student
+3. Network Level.
+  
+    - H0: There is no significant association between the two categories.
+    - H1: There is a significant association.
+
+I used the chi-square test with a p-value of 0.05.
+
