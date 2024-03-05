@@ -47,8 +47,8 @@ Understand and analyze the factors that affect students' adaptation to the effic
    - Change data type: Categorical to Ordinal Numeric
 5. EDA
    - Data Understanding
-   - Hipotesis : Uji Chi Square
-   - Uji Kendall's Tau
+   - Hipotesis : Chi Square Test
+   - Kendall's Tau
 
 ## **📊 Dataset Description 📊**
 🔴 Based on the data used, the dataset consists of ```14 columns```, ```1205 rows```, Data type ```object```, there is ```no null/Nan``` on the data, I found ```949 duplicate``` data and the target value of this data is Adaptivity Level. For the duplicate data found, I took no action because the dataset is categorical, so it's highly likely to have duplicate data. <br>
